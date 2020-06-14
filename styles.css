@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+	background-color: #0961;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 1200px;
+	height: 500px;
+}
+
+header {
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+
+.header-title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+td {
+	background-color: #88c5a1;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black 1;
+
+	cursor: pointer;
+}
+
+.btn-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#btnStart {
+	display: inline-block;
+
+	width: 100px;
+	height: 40px;
+
+	font-size: 17px;
+	border-radius: 15px;
+	background-color: #e0e293;
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+	margin-top: 15px;
+
+	cursor: pointer;
+}
+
+#btnStart:focus {
+	outline: none;
+}
+
+#table {
+	display: inline-block;
+}
+
+.red {
+	background-color: #ff5851;
+}
+.timer {
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 17px;
+	display: inline;
+}
